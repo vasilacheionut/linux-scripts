@@ -1,1 +1,4 @@
-sudo apt-get update
+#!/bin/bash
+bash update.sh
+bash upgrade.sh
+
