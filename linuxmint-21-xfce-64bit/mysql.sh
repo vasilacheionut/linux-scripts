@@ -11,4 +11,4 @@ echo "
     mysql -u root -p
 "
 sudo mysql
-
+mysql -u root -p
