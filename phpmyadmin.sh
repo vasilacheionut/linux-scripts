@@ -65,3 +65,22 @@ Configuration of pmadb… not OK Documentation
 General relation features Disabled
 Create a database named 'phpmyadmin' and setup the phpMyAdmin configuration storage there.
 
+
+The configuration file now needs a secret passphrase (blowfish_secret).
+You’ll see this error after every installation of phpmyadmin.
+To resolve this issue, just open config.inc.php ( or rename config.sample.inc.php to config.inc.php if you haven’t done so yet ) and change this line
+
+Open Terminal
+
+cd /usr/share/phpmyadmin/
+sudo cp config.sample.inc.php config.inc.php
+
+sudo nano config.inc.php
+
+Replace 
+
+$cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
+
+to
+
+$cfg['blowfish_secret'] = 'y[/qlva{kNheGD5hfzFLrNoS-ZX\zQ/';
