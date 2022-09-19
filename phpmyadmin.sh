@@ -46,3 +46,22 @@ sudo firewall-cmd --reload
 http://your-server-ip-domain/phpmyadmin
 
 http://localhost/phpmyadmin
+
+
+Fix
+
+ The phpMyAdmin configuration storage is not completely configured, some extended features have been deactivated. Find out why.
+Or alternately go to 'Operations' tab of any database to set it up there. 
+
+
+http://localhost/phpmyadmin/index.php?route=/check-relations
+
+
+
+phpMyAdmin configuration storage Documentation
+
+Configuration of pmadb… not OK Documentation
+
+General relation features Disabled
+Create a database named 'phpmyadmin' and setup the phpMyAdmin configuration storage there.
+
