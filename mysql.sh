@@ -1,6 +1,9 @@
 echo 'Install MySQL'
 sudo apt install mysql-server 
 
+
+sudo mysql
+
 echo "
     SELECT user,authentication_string,plugin,host FROM mysql.user;
 
@@ -9,8 +12,7 @@ echo "
     BY 'Test54321@';
 
     SELECT user,authentication_string,plugin,host FROM mysql.user;
-    mysql -u root -p
+    exit;
 "
 
-sudo mysql
 mysql -u root -p
