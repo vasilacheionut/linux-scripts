@@ -15,6 +15,8 @@ sudo systemctl status apache2
 
 echo "Create test file info.php and add code above"
 sudo nano /var/www/html/info.php
-echo "<?php phpinfo(); ?>"
+
+echo "add code above"
+<?php phpinfo(); ?>
 
 echo "Open: localhost/info.php"
