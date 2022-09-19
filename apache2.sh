@@ -21,3 +21,8 @@ sudo systemctl status apache2
 
 echo "Verify Hostname IP"
 hostname -I
+
+
+echo "Change owner and make folder read and write"
+sudo chown -R www-data:www-data /var/www/html/
+sudo chmod 777 /var/www/html/
