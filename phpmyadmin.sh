@@ -83,4 +83,4 @@ $cfg['blowfish_secret'] = ''; /* YOU MUST FILL IN THIS FOR COOKIE AUTH! */
 
 to
 
-$cfg['blowfish_secret'] = 'qtdRoGmbc9{8IZr323xYcSN]0s)r$9b_JUnb{~Xz';
+$cfg['blowfish_secret'] = 'P5DS+radU0TOqI7HX$cH!eb3zwnDDoDr';
