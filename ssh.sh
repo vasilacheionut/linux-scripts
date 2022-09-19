@@ -13,3 +13,5 @@ sudo apt install openssh-client
 
 echo "Connect to server"
 ssh learnlinux@192.168.1.144
+
+ssh your_servername@192.168.1.144
