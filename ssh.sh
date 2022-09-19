@@ -8,7 +8,7 @@ sudo apt install openssh-client
 
 
 echo "Or if whant to be server Install openssh-server that include and openssh-client"
-sudo apt install openssh-client
+sudo apt install openssh-server
 
 
 echo "Connect to server"
